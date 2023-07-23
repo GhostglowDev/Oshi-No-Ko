@@ -1,0 +1,43 @@
+Heyo! Thanks for using Ghost's Utilities (GhostUtil)
+To use the utility on your script just simply add this:
+
+  modc = require 'ghostutil.Modcharts'; -- Well.. self-explainatory, really. (CURRENTLY NOT WORKING)
+  util = require 'ghostutil.Util'; -- Utilities! Tons of useful custom functions 
+  game = require 'ghostutil.Game'; -- more variables and callbacks
+  math = require 'ghostutil.Math'; -- An extension for LUA's math
+
+To use the utility you can do this for example:
+
+  math.floorRound(getProperty("ratingPercent")*100, 2); -- gets the accuracy of the player and limit the decimal to only 2
+
+It's also the same for custom callbacks:
+
+  util.quickText(
+    "tag", -- the tag for the text
+    "Hello World!", -- the text
+    0, -- what's the text's field width?
+    0, -- x position
+    0, -- y position
+    true, -- do you want it to be instantly be added after it's created
+    "center", -- alignment type
+    "FFFFFF", -- text color (put nil if you're not feeling like typing "FFFFFF" for the plain white color)
+    true, -- is centered?
+    "x" -- center type (x, y, xy)
+  );
+
+Also, if you want to make a new module then use this template:
+
+  local customModule = {};
+
+  customModule.text = "Hello World";
+  customModule.func = function(argument)
+    debugPrint(argument);
+  end
+
+  return customModule;
+
+or simply go to ghostutil/custommodule/MyModule.lua
+
+Goodluck modding!
+
+

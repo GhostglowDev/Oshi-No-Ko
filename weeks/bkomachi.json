@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Idol", "bf", [110, 0, 120]],
+		["Mephisto", "bf", [110, 0, 100]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "",
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "MyStar",
+	"startUnlocked": true,
+	"difficulties": "Hard",
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

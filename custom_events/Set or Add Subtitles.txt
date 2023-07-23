@@ -1,0 +1,2 @@
+Value 1: The subtitle to set/add
+Value 2: 0 if set, anything else if add

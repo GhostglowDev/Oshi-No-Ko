@@ -1,0 +1,7 @@
+Value 1: The target zoom
+Value 2: Duration
+
+Put nothing on Value 2 to make it the
+default zoom
+
+Originally used on Friday Night Dustin'
