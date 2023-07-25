@@ -1,0 +1,7 @@
+{
+	"name": "Oshi No Ko",
+	"description": "Oshi No Ko's opening and ending charted",
+	"restart":false,
+	"runsGlobally": false,
+	"color": [110, 0, 110]
+}
